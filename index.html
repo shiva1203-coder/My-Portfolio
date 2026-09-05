@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shivaganesh A — Software Developer &amp; UI/UX Designer</title>
+<meta name="description" content="Portfolio of Shivaganesh A, final-year Computer Science Engineering student — software development, UI/UX design, and applied AI projects." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header id="top">
+  <nav class="navbar" id="navbar">
+    <a href="#top" class="brand">SA<span class="brand-dot"></span></a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-tabs" id="navTabs">
+      <li><a href="#top" class="nav-tab active">Home</a></li>
+      <li><a href="#about" class="nav-tab">About</a></li>
+      <li><a href="#skills" class="nav-tab">Skills</a></li>
+      <li><a href="#projects" class="nav-tab">Projects</a></li>
+      <li><a href="#contact" class="nav-tab">Contact</a></li>
+      <li class="nav-resume">
+        <!-- Replace href with the actual hosted resume file -->
+        <a href="./Shivaganesh_A_Resume.pdf" download class="btn btn-outline btn-small">Resume</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-grid">
+
+      <div class="hero-copy">
+        <p class="eyebrow-line">Final-year CSE student, open to opportunities</p>
+        <h1 class="hero-name">Hi, I'm <span class="gradient-text">Shivaganesh A</span></h1>
+        <p class="hero-role">
+          <span id="typedRole"></span><span class="cursor" aria-hidden="true">&nbsp;</span>
+        </p>
+        <p class="hero-summary">
+          I build efficient, user-friendly applications and design the interfaces around
+          them. Comfortable moving between C, Python and Java on the backend, and Figma
+          on the front — looking for software development and UI/UX design roles where
+          both sides matter.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <ul class="hero-links" aria-label="Profile links">
+          <li><a href="https://github.com/shiva1203-coder" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://leetcode.com/Shivaganesh1203" target="_blank" rel="noopener">LeetCode</a></li>
+          <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+
+      <div class="hero-portrait">
+        <div class="portrait-ring">
+          <!--
+            Photo saved as "profile.png" next to index.html.
+            If it's ever moved or renamed, update the src below.
+          -->
+          <img src="profile.png" alt="Shivaganesh A" id="heroPhoto" class="portrait-img" />
+        </div>
+        <span class="portrait-chip chip-1">C · Python · Java</span>
+        <span class="portrait-chip chip-2">UI/UX Design</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= ABOUT & EDUCATION ================= -->
+  <section class="section" id="about">
+    <div class="section-head">
+      <div class="section-bar" aria-hidden="true"></div>
+      <div>
+        <h2 class="section-title">About &amp; Education</h2>
+        <p class="section-subtitle">Who I am, and how I got here.</p>
+      </div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm Shivaganesh A, a final-year Computer Science Engineering student focused on
+          building applications that are both technically sound and genuinely easy to use.
+          My work sits at the intersection of software development and design — I write
+          backend and application logic in C, Python and Java, and shape the experience
+          around it using UI/UX principles.
+        </p>
+        <p>
+          I'm particularly drawn to problems where good engineering and good design solve
+          the same problem from two directions: making software that people actually want
+          to use, and making it efficient enough to be worth using. Outside coursework,
+          I've explored applied AI, cloud computing and graphic design through internships
+          and workshops.
+        </p>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <p class="timeline-period">2023 — 2027</p>
+            <h3>Bachelor of Engineering, Computer Science</h3>
+            <p class="timeline-org">Paavai Engineering College</p>
+            <p class="timeline-score">CGPA: 6.70</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <p class="timeline-period">HSC</p>
+            <h3>Higher Secondary Certificate</h3>
+            <p class="timeline-org">ARR Matriculation Higher Secondary School</p>
+            <p class="timeline-score">52%</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <p class="timeline-period">SSLC</p>
+            <h3>Secondary School Leaving Certificate</h3>
+            <p class="timeline-org">Maharishi Vidya Mandir Senior Secondary School</p>
+            <p class="timeline-score">71.60%</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section" id="skills">
+    <div class="section-head">
+      <div class="section-bar" aria-hidden="true"></div>
+      <div>
+        <h2 class="section-title">Skills &amp; Interests</h2>
+        <p class="section-subtitle">The tools and topics I work with most.</p>
+      </div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <span class="skill-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M8 4L2 12l6 8M16 4l6 8-6 8"/></svg>
+        </span>
+        <h3>Programming Languages</h3>
+        <div class="tag-list">
+          <span class="tag">C</span>
+          <span class="tag">Python</span>
+          <span class="tag">Java</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18 4.5 4.5 0 0 1 0-18z"/></svg>
+        </span>
+        <h3>Design Tools</h3>
+        <div class="tag-list">
+          <span class="tag">Figma</span>
+          <span class="tag">Canva</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg>
+        </span>
+        <h3>Database</h3>
+        <div class="tag-list">
+          <span class="tag">MySQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg>
+        </span>
+        <h3>Web Development</h3>
+        <div class="tag-list">
+          <span class="tag">HTML</span>
+        </div>
+      </div>
+
+      <div class="skill-card skill-card-wide">
+        <span class="skill-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4z"/></svg>
+        </span>
+        <h3>Areas of Interest</h3>
+        <div class="tag-list">
+          <span class="tag tag-outline">Web Development</span>
+          <span class="tag tag-outline">UI/UX Design</span>
+          <span class="tag tag-outline">Graphic Design</span>
+          <span class="tag tag-outline">Cloud Computing</span>
+          <span class="tag tag-outline">Artificial Intelligence</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INTERNSHIPS & WORKSHOPS ================= -->
+  <section class="section" id="internships">
+    <div class="section-head">
+      <div class="section-bar" aria-hidden="true"></div>
+      <div>
+        <h2 class="section-title">Internships &amp; Workshops</h2>
+        <p class="section-subtitle">Hands-on experience outside the classroom.</p>
+      </div>
+    </div>
+
+    <div class="exp-list">
+      <article class="exp-card">
+        <div class="exp-head">
+          <h3>UI/UX Design Internship</h3>
+          <span class="exp-date">Jun 16 — Jul 02, 2025</span>
+        </div>
+        <p class="exp-org">Techvolt</p>
+        <p class="exp-desc">Worked on interface design fundamentals — wireframing, prototyping and usability practices applied to real product screens.</p>
+      </article>
+
+      <article class="exp-card">
+        <div class="exp-head">
+          <h3>Entrepreneurship Workshop</h3>
+          <span class="exp-date">Dec 13, 2023</span>
+        </div>
+        <p class="exp-org">Illuminate</p>
+        <p class="exp-desc">A one-day workshop on early-stage business thinking — idea validation, pitching, and turning a concept into a plan.</p>
+      </article>
+
+      <article class="exp-card">
+        <div class="exp-head">
+          <h3>Artificial Intelligence Internship</h3>
+          <span class="exp-date">Jan 06 — Mar 10, 2023</span>
+        </div>
+        <p class="exp-org">Rinex</p>
+        <p class="exp-desc">Introduced to core AI/ML concepts and applied them in small guided projects, building the foundation later used in the seizure-detection project.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS & CERTIFICATIONS ================= -->
+  <section class="section" id="projects">
+    <div class="section-head">
+      <div class="section-bar" aria-hidden="true"></div>
+      <div>
+        <h2 class="section-title">Projects &amp; Certifications</h2>
+        <p class="section-subtitle">What I've built, and what I've learned.</p>
+      </div>
+    </div>
+
+    <div class="project-feature">
+      <div class="project-info">
+        <span class="project-label">Featured Project</span>
+        <h3>Brain Epileptic Seizure Detection using Deep Learning</h3>
+        <p>
+          A deep learning system that classifies EEG brainwave signals to identify seizure
+          activity. Raw EEG data is preprocessed into a form suitable for a Convolutional
+          Neural Network, which learns to distinguish seizure from non-seizure patterns —
+          aimed at supporting faster, more consistent detection than manual review alone.
+        </p>
+        <div class="tag-list">
+          <span class="tag tag-outline">EEG Signal Processing</span>
+          <span class="tag tag-outline">CNN</span>
+          <span class="tag tag-outline">Deep Learning</span>
+          <span class="tag tag-outline">Python</span>
+        </div>
+      </div>
+      <div class="project-visual" aria-hidden="true">
+        <svg viewBox="0 0 320 160" class="eeg-svg">
+          <polyline points="0,80 20,80 30,40 40,120 50,60 60,90 80,80 100,80 110,30 120,130 130,55 140,90 160,80 180,80 190,45 200,115 210,60 220,90 240,80 260,80 270,35 280,125 290,55 300,90 320,80" />
+        </svg>
+      </div>
+    </div>
+
+    <h3 class="cert-heading">Certifications</h3>
+    <div class="cert-list">
+      <div class="cert-card">
+        <p class="cert-org">IBM SkillsBuild</p>
+        <p class="cert-title">Artificial Intelligence</p>
+        <p class="cert-date">Feb 02, 2026</p>
+      </div>
+      <div class="cert-card">
+        <p class="cert-org">Infosys</p>
+        <p class="cert-title">Python Programming</p>
+        <p class="cert-date">May 14, 2025</p>
+      </div>
+      <div class="cert-card">
+        <p class="cert-org">NoviTech</p>
+        <p class="cert-title">React JS</p>
+        <p class="cert-date">Sep 27, 2024</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section" id="contact">
+    <div class="section-head">
+      <div class="section-bar" aria-hidden="true"></div>
+      <div>
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-subtitle">Open to roles, internships, and good conversations.</p>
+      </div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p class="contact-lede">
+          Open to software development and UI/UX design roles, internships, and
+          interesting collaborations. Reach out directly or send a message.
+        </p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 5h18v14H3V5zm0 0l9 7 9-7"/></svg>
+            </span>
+            <a href="mailto:a.shivaganesh1203@gmail.com">a.shivaganesh1203@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <a href="tel:+918072272790">+91 80722 72790</a>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            </span>
+            <span>Kumbakonam, Tamil Nadu, India</span>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4V4zm4 6v6M8 8v.01M12 16v-3.5a2 2 0 0 1 4 0V16m-4-3h4"/></svg>
+            </span>
+            <a href="#" target="_blank" rel="noopener">linkedin.com/in/Shivaganesh A</a>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.15-1.11-1.46-1.11-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.93.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.83-2.34 4.68-4.57 4.92.36.31.68.92.68 1.85v2.75c0 .26.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+            </span>
+            <a href="https://github.com/shiva1203-coder" target="_blank" rel="noopener">github.com/shiva1203-coder</a>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M14 4l6 6-9 9-6-6 9-9zM5 19h6"/></svg>
+            </span>
+            <a href="https://leetcode.com/Shivaganesh1203" target="_blank" rel="noopener">leetcode.com/Shivaganesh1203</a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+          <span class="form-error" data-error-for="name"></span>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          <span class="form-error" data-error-for="email"></span>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="What are you reaching out about?" required></textarea>
+          <span class="form-error" data-error-for="message"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Shivaganesh A. Built with HTML, CSS &amp; JavaScript.</p>
+  <a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
